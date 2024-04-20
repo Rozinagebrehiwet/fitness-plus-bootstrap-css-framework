@@ -1,0 +1,30 @@
+:root {
+    --bs-primary: #2F303A;
+    --span-color: #ff2000;
+    --font-color: #ccc;
+    --fourth-color: #333;
+    --bs-font-sans-serif: "inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, 
+.font-primary {
+    font-family: "Roboto", sans-serif;
+}
+
+.bg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background-1.jpg");
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+  
