@@ -22,45 +22,55 @@
         rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+        ssss rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/index-style.css">
     <title>Fitness Plus</title>
 </head>
 
 <body>
-    <div class="bg-image">
-        <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-            <div class="container d-flex justify-content-between align-items-center">
-
-                <h1 class="text-light">
-                    <a href="index.html">Fitness <span> plus<sup>+<sup>+</sup></sup></span></a>
+    <div class="bg-image container-fluid m-0 p-0">
+        <nav class="navbar opacity-75 fixed-top navbar-expand-lg bg-secondary align-items-center py-3">
+            <div class="container-fluid">
+                <h1 class="fitness px-3">
+                    <a class="navbar-brand fs-2 " href="">Fitness <span>plus<sup>+<sup>+</sup></sup></span></a>
                 </h1>
-
-
-                <nav id="navbar" class="navbar">
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="schedules.html">Schedules</a></li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav nav-underline  px-5">
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light " href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">About us</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">Services</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link text-light" href="#">Schedules</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <button class="btn btn-bd-primary fs-5" type="button">Sign up</button>
+                        </li>
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
-                </nav>
-
-
+                </div>
             </div>
-        </header>
 
-        <!--hero-->
-        <div class="justify-content-center">
-            <div>NO PAIN NO GAIN</div>
-            <div>YOUT ULTIMATE FITNESS DESTINATION</div>
-            <button class="btn">JOIN NOW</button>
+        </nav>
+        <div class="justify-content-center align-items-center">
+            <div class="gray text-light py-5 fs-3"><span>K</span>NO<span>W</span> PAIN <span>K</span>NO<span>W</span>
+                GAIN</div>
+            <div class="text-light py-5 fs-2">YOUR ULTIMATE FITNESS DESTINATION</div>
+            <button class="btn btn-bd-primary fs-4 " type="button">JOIN NOW</button>
         </div>
 
     </div>
-    </div>
+
     <div class="container my-3" id="second-page">
         <!--section-1-->
         <div class="row g-2 ">
@@ -74,16 +84,93 @@
                 group-4</div>
         </div>
     </div>
-    <div class="container-fluid" id="third-page">
-        <!--section-2-->
-        <div>
-            section-2
+    <section id="wrapped">
+        <div id="first" class="block">
+            <a href="#"><img src="section-images/first-image.jpg" alt="gentlemens"></a>
+            <div>
+                <h3 class="wrapped-head">Exclusive Men</h3>We've crafted a fitness sanctuary exclusively for men,
+                providing a space where strength, camaraderie, and determination converge
+                to sculpt the ultimate physique.
+            </div>
         </div>
-        <!--footer-->
-        <div>
-            footer
+        <div id="second" class="block">
+            <a href="#"> <img src="section-images/second-image.jpg" alt="ladies"></a>
+            <div>
+                <h3 class="wrapped-head">Exclusive Women</h3>We 've supportive community and empowering space
+                exclusively for women.
+                Step into our sanctuary where strength, confidence, and sisterhood reign supreme.
+            </div>
+        </div>
+        <div id="third" class="block">
+            <a href="#"> <img src="section-images/third-image.jpg" alt="couples"></a>
+            <div>
+                <h3 class="wrapped-head">Couples</h3> We believe that couples who sweat together, stay together. Our
+                Couples
+                Fitness Program is designed to bring you and your partner closer while achieving your fitness goals.
+            </div>
+        </div>
+        <div id="fourth" class="block">
+            <a href="#"><img src="section-images/fourth-image.jpg" alt="exclusive"></a>
+            <div>
+                <h3 class="wrapped-head">Personal Training</h3> Elevate Your Fitness Journey with Exclusive Personal
+                Training.
+                Unlock your full potential with our exclusive personal training services at our gym.
+            </div>
+        </div>
+    </section>
+
+    <div id="background-2">
+        <div id="register">
+            <div id="believe"><span>BELIEVE </span>IN YOUR SELF!</div>
+            <div id="register-discription">Click the Sign Up button if you are new or Login button<br /> if you are
+                already signed up!
+            </div>
+            <div id="buttons">
+                <a id="register-button" href="registration.html">SIGN UP </a>
+                <a id="login-button" href="#">LOG IN</a>
+            </div>
         </div>
     </div>
+    <footer id="footer">
+        <div id="inner-footer">
+            <div id="useful-links" class="foot">
+                <h5>Useful Links</h5>
+                <ul class="fa-ul">
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="home.html"> Home</a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="about.html"> About</a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="services.html"> Services</a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="schedules.html"> Schedules</a></li>
+                </ul>
+            </div>
+            <div id="our-services" class="foot">
+                <h5>Our Services</h5>
+                <ul class="fa-ul">
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="#"> Exclusive Men</a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="#"> Exclusive Women </a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="#"> Couples</a></li>
+                    <li><i class='fa-li fa fa-angle-right'></i><a href="#"> Exclusive Personal Training</a></li>
+                </ul>
+            </div>
+            <div id="contact-us" class="foot">
+                <h5>Contact Us</h5>
+                <p> 05 Kebele, Adigrat</p>
+                <p> Tigray, Ethiopia</p>
+                <p>Phone: <a href="#"> +111..</a></p>
+                <p>Email: <a href="mailto:fitnessplus@gmail.com" target="_blank"> fitnessplus@gmail.com</a></p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="mailto:fitnessplus@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fa fa-paper-plane-o"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fa fa-whatsapp"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fa fa-facebook-f icon"></i></i></a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div id="copyright">&copy; Copyright Fitness Plus. All Rights Resereved</div>
+        <div id="designer">Designed by <a href="mailto:heroxx09@gmail.com" target="_blank"> hero</a></div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
 

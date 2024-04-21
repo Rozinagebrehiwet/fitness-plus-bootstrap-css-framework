@@ -1,9 +1,9 @@
 :root {
     --bs-primary: #2F303A;
     --span-color: #ff2000;
-    --font-color: #ccc;
+    --font-color: #fff;
     --fourth-color: #333;
-    --bs-font-sans-serif: "inter", sans-serif;
+    --bs-font-sans-serif: "poppin", sans-serif;
 }
 
 h1,
@@ -13,7 +13,7 @@ h4,
 h5,
 h6, 
 .font-primary {
-    font-family: "Roboto", sans-serif;
+    font-family: "inter", sans-serif;
 }
 
 .bg-image {
@@ -26,5 +26,26 @@ h6,
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-
+.fitness a {
+    color: var(--font-color);
+}
+.fitness a span{
+    color: var(--span-color);
+}
+.btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-black);
+    --bs-btn-bg: var(--span-color);
+    --bs-btn-border-color: var(--span-color);
+    --bs-btn-hover-color: var(--bs-orange);
+    --bs-btn-hover-bg: #{shade-color($bd-orange, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-orange, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--span-color);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-orange, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-orange, 20%)};
+  }
+.gray span{
+    color: var(--fourth-color);
+}
   
