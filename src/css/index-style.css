@@ -1,9 +1,9 @@
 :root {
-    --bs-primary: #2F303A;
-    --span-color: #ff2000;
-    --font-color: #fff;
-    --fourth-color: #333;
-    --bs-font-sans-serif: "poppin", sans-serif;
+  --bs-primary: #2F303A;
+  --span-color: #ff2000;
+  --font-color: #fff;
+  --fourth-color: #999;
+  --bs-font-sans-serif: "poppin", sans-serif;
 }
 
 h1,
@@ -11,41 +11,78 @@ h2,
 h3,
 h4,
 h5,
-h6, 
+h6,
 .font-primary {
-    font-family: "inter", sans-serif;
+  font-family: "inter", sans-serif;
 }
 
+#background-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background-1.jpg");
+}
+
+#background-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background-2.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+#background-about{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+}
 .bg-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background-1.jpg");
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-position: center;
-    background-attachment: scroll;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+  background-blend-mode: darken;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
+
 .fitness a {
-    color: var(--font-color);
+  color: var(--font-color);
 }
-.fitness a span{
-    color: var(--span-color);
+
+.fitness a span {
+  color: var(--span-color);
 }
+
 .btn-bd-primary {
-    --bs-btn-font-weight: 600;
-    --bs-btn-color: var(--bs-black);
-    --bs-btn-bg: var(--span-color);
-    --bs-btn-border-color: var(--span-color);
-    --bs-btn-hover-color: var(--bs-orange);
-    --bs-btn-hover-bg: #{shade-color($bd-orange, 10%)};
-    --bs-btn-hover-border-color: #{shade-color($bd-orange, 10%)};
-    --bs-btn-focus-shadow-rgb: var(--span-color);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
-    --bs-btn-active-bg: #{shade-color($bd-orange, 20%)};
-    --bs-btn-active-border-color: #{shade-color($bd-orange, 20%)};
-  }
-.gray span{
-    color: var(--fourth-color);
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-bg: var(--span-color);
+  --bs-btn-border-color: var(--span-color);
+  --bs-btn-hover-color: var(--bs-orange);
+  --bs-btn-hover-bg: #{shade-color($bd-orange, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-orange, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--span-color);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-orange, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-orange, 20%)};
 }
-  
+
+#hero {
+  padding: 20% 0;
+}
+
+.gray span {
+  color: var(--fourth-color);
+}
+
+.img-fluid {
+  height: 400px;
+  width: 300px
+}
+
+.section:hover {
+  border: 2px solid var(--span-color);
+  box-shadow: var(--bs-orange);
+  cursor: pointer;
+}
+
+#believe {
+  padding: 15% 0;
+}
+
+.footer{
+  background-color: var(--bs-primary); 
+}
