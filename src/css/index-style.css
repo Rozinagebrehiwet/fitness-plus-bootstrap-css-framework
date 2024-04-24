@@ -95,7 +95,7 @@ h6,
     padding: 15% 0;
 }
 
-#believe>span, .about-head>span, .home-head>span {
+#believe>span, .about-head>span, .home-head>span, .service-head>span {
     color: var(--span-color);
 }
 
@@ -119,4 +119,17 @@ h6,
 .gym-product {
     height: 350px;
     width: 150%;
+}
+.service-head{
+    margin: 15% auto 5%;
+    font-size: 4rem;;
+}
+.service-img{
+    width: 10%;
+    height: 10%;
+    margin-right: 5%;
+}
+.service-link{
+    color: var(--span-color);
+    text-decoration: none;
 }
