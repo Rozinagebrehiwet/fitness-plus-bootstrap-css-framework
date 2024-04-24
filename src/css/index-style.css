@@ -32,7 +32,7 @@ h6,
 
 }
 
-#background-about {
+#about-background {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/about.jpg");
     background-color: rgba(0, 0, 0, 0.5);
 }
@@ -95,7 +95,7 @@ h6,
     padding: 15% 0;
 }
 
-#believe span {
+#believe>span, .about-head>span {
     color: var(--span-color);
 }
 
@@ -107,4 +107,8 @@ h6,
 
 .footer-link:hover {
     color: var(--span-color);
+}
+
+.about-head{
+    padding-top: 20%;
 }
