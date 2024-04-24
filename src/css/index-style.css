@@ -95,7 +95,12 @@ h6,
     padding: 15% 0;
 }
 
-#believe>span, .about-head>span, .home-head>span, .service-head>span {
+#believe>span,
+.about-head>span,
+.home-head>span,
+.service-head>span,
+.schedule-head>span,
+.register-head>span {
     color: var(--span-color);
 }
 
@@ -109,27 +114,47 @@ h6,
     color: var(--span-color);
 }
 
-.about-head{
+.about-head {
     padding-top: 20%;
+    font-size: 3rem;
 }
-.home-head{
+
+.home-head {
     margin: 10% auto;
     font-size: 5rem;
 }
+
 .gym-product {
     height: 350px;
     width: 150%;
 }
-.service-head{
+
+.service-head,
+.schedule-head {
     margin: 15% auto 5%;
-    font-size: 4rem;;
+    font-size: 3rem;
 }
-.service-img{
+
+.service-img {
     width: 10%;
     height: 10%;
     margin-right: 5%;
 }
-.service-link{
+
+.service-link {
     color: var(--span-color);
     text-decoration: none;
+}
+.register-head{
+    font-size: 2.5rem;
+    margin: 15% auto 2%;
+}
+.form{
+    width: 50%;
+}
+.form-control{
+    width: fit-content;
+}
+.input-group{
+    display: block;
 }
