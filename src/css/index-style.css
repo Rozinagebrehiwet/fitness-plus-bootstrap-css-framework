@@ -2,7 +2,7 @@
     --bs-primary: #d1d7e0;
     --bs-secondary: #bac3d1;
     --bs-third: #a6aeba;
-    --span-color: #ff2000;
+    --span-color: #ff4000;
     --font-color: #fff;
     --fourth-color: #999;
     --bs-font-sans-serif: "poppin", sans-serif;
@@ -82,7 +82,7 @@ h6,
 
 .img-section {
     height: 400px;
-    width: 310;
+    width: 310px;
 }
 
 .section:hover {
@@ -95,7 +95,7 @@ h6,
     padding: 15% 0;
 }
 
-#believe>span, .about-head>span {
+#believe>span, .about-head>span, .home-head>span {
     color: var(--span-color);
 }
 
@@ -111,4 +111,12 @@ h6,
 
 .about-head{
     padding-top: 20%;
+}
+.home-head{
+    margin: 10% auto;
+    font-size: 5rem;
+}
+.gym-product {
+    height: 350px;
+    width: 150%;
 }
