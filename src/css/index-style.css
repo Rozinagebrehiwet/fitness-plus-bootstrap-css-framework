@@ -145,16 +145,21 @@ h6,
     color: var(--span-color);
     text-decoration: none;
 }
-.register-head{
-    font-size: 2.5rem;
-    margin: 15% auto 2%;
+
+.register-head span {
+    color: var(--span-color);
 }
-.form{
+
+form {
+    box-shadow: 0 0 10px var(--span-color);
     width: 50%;
+    height: auto;
+    margin: 5% 25%;
+    border-radius: 2%;
 }
-.form-control{
-    width: fit-content;
-}
-.input-group{
-    display: block;
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid var(--fourth-color);
 }
