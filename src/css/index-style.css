@@ -1,6 +1,6 @@
 :root {
     --bs-primary: #1a1624;
-    --bs-secondary: #bac3d1;
+    --bs-secondary: rgb(92, 92, 92);
     --bs-third: #a6aeba;
     --span-color: #ff6000;
     --font-color: #fff;
